@@ -10,6 +10,28 @@ Implementation of system proposed by Leon et al. in A Neural Algorithm of Artist
 ## Usage:
 * ./main.py [--content] [--style] [--total_step=INT] [--log_step=INT] [--sample_step=INT] [--style_weight=FLOAT] [--lr=FLOAT]
 
+## Results:
+##### Initial attemps, with very wrong naming of the model features: 
+![][/outputs/initial.jpg]
+
+##### Fixed the naming according to the paper: 
+* using conv features for both content and style with mse loss for both
+![][/outputs/"mse and conv".jpg]
+
+* using conv features for both content and style with l1 loss for both
+![][/outputs/"l1 and conv".jpg]
+
+* using conv5 for content and all relu features for the style with mse loss for both
+![][/outputs/"conv5 and all relu with mse loss".jpg]
+
+* using conv5 for content and all relu features for the style with l1 loss for both
+![][/outputs/"conv5 with all relu with l1 loss".jpg]
+
+#### Other outputs:
+![][/outputs/"dancing starry night".jpg] ![][outputs/skyline.jpg]
+![][/outputs/"starry night".jpg] ![][outputs/mulicolour.jpg]
+![][/outputs/multicolourdancing.jpg]
+
 ## Try it yourself
 ### Resources:
 * Paper: [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576)
