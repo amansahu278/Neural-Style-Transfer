@@ -12,25 +12,44 @@ Implementation of system proposed by Leon et al. in A Neural Algorithm of Artist
 
 ## Results:
 ##### Initial attemps, with very wrong naming of the model features: 
-![][/outputs/initial.jpg]
+<p align="center">
+  <img width="300" height="300" src="outputs/initial.jpg">
+</p>
 
 ##### Fixed the naming according to the paper: 
 * using conv features for both content and style with mse loss for both
-![][/outputs/"mse and conv".jpg]
+<p align="center">
+  <img width="300" height="300" src="outputs/mse and conv.jpg">
+</p>
 
 * using conv features for both content and style with l1 loss for both
-![][/outputs/"l1 and conv".jpg]
+<p align="center">
+  <img width="300" height="300" src="outputs/l1 and conv.jpg">
+</p>
 
 * using conv5 for content and all relu features for the style with mse loss for both
-![][/outputs/"conv5 and all relu with mse loss".jpg]
+<p align="center">
+  <img width="300" height="300" src="outputs/conv5 and all relu with mse loss.jpg">
+</p>
 
 * using conv5 for content and all relu features for the style with l1 loss for both
-![][/outputs/"conv5 with all relu with l1 loss".jpg]
+<p align="center">
+  <img width="300" height="300" src="outputs/conv5 and all relu with l1 loss.jpg">
+</p>
 
 #### Other outputs:
-![][/outputs/"dancing starry night".jpg] ![][outputs/skyline.jpg]
-![][/outputs/"starry night".jpg] ![][outputs/mulicolour.jpg]
-![][/outputs/multicolourdancing.jpg]
+<p float="left" align="middle">
+  <img src="outputs/dancing starry night.jpg" width="300" height="300"/>
+  <img src="outputs/skyline.jpg" width="300" height="300"/>
+</p>
+<p float="left" align="middle">
+  <img src="outputs/starry night.jpg" width="300" height="300"/>
+  <img src="outputs/multicolour.jpg" width="300" height="300"/>
+</p>
+<p align="center">
+  <img width="300" height="300" src="outputs/multicolourdancing.jpg">
+</p>
+
 
 ## Try it yourself
 ### Resources:
