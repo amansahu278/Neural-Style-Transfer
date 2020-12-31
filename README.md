@@ -18,5 +18,5 @@ Implementation of proposed system in A Neural Algorithm of Artistic Style by Leo
 * [NEURAL TRANSFER USING PYTORCH](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 * https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/neural_style_transfer
 * Rather helpful improvements to get more visually appealing results: 
-  *[How to Get Beautiful Results with Neural Style Transfer](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)
+  * [How to Get Beautiful Results with Neural Style Transfer](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)
   * https://github.com/EugenHotaj/pytorch-generative
