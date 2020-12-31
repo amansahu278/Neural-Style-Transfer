@@ -2,7 +2,7 @@
 Neural Style Transfer using VGG-19 Network
 
 ## Description:
-Implementation of proposed system in A Neural Algorithm of Artistic Style by Leon et al. 2015.
+Implementation of system proposed by Leon et al. in A Neural Algorithm of Artistic Style, 2015.
 
 ## Installation:
 * Clone the repository
