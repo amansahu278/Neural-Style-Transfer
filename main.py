@@ -194,7 +194,7 @@ def transfer_style(config, content_img, style_img, input_img=None):
         input_img.data.clamp_(0, 1)
 
         optimizer.zero_grad()
-        input_img = model(transform(input_img))
+        model(transform(input_img))
         style_loss = 0
         content_loss = 0
     
