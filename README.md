@@ -4,6 +4,27 @@ Neural Style Transfer using VGG-19 Network
 ## Description:
 Implementation of system proposed by Leon et al. in A Neural Algorithm of Artistic Style, 2015.
 
+In very simple terms, the proposal is of a system that can combine the content of an image and the style of another.
+
+<table align="center">
+  <tr>
+    <th>Content Image</td>
+    <th>Style Image</td>
+    <th>Resultant Image</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="samples/dancing.jpg" width="200" height="200"/>
+    </td>
+    <td>
+      <img src="samples/picasso.jpg" width="200" height="200"/>
+    </td>
+    <td>
+      <img src="outputs/conv5 and all relu with l1 loss.jpg" width="200" height="200"/>
+    </td>
+  </tr>  
+</table>
+
 ## Installation:
 * Clone the repository
 
